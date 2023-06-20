@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['width_690',['width',['../struct_s_s_t_v_mode__t.html#ad8d4e7efb12eb0e0cfa850aeb7353e40',1,'SSTVMode_t']]]
+  ['tones_802',['tones',['../struct_s_s_t_v_mode__t.html#a27c6a271c1aa8e499a31a784ab9254ad',1,'SSTVMode_t']]],
+  ['type_803',['type',['../structtone__t.html#af92472bf087b9a7ec0c350bd503bdd74',1,'tone_t']]]
 ];

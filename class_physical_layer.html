@@ -114,36 +114,33 @@ Inheritance diagram for PhysicalLayer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5e02457f1d519cf81b1590a182321c62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a5e02457f1d519cf81b1590a182321c62">PhysicalLayer</a> (float freqStep, size_t maxPacketLength)</td></tr>
-<tr class="memdesc:a5e02457f1d519cf81b1590a182321c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_physical_layer.html#a5e02457f1d519cf81b1590a182321c62">More...</a><br /></td></tr>
-<tr class="separator:a5e02457f1d519cf81b1590a182321c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab139a34e03a6fd5a781cd54da21d308f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#ab139a34e03a6fd5a781cd54da21d308f">transmit</a> (__FlashStringHelper *fstr, uint8_t addr=0)</td></tr>
-<tr class="memdesc:ab139a34e03a6fd5a781cd54da21d308f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino Flash String transmit method.  <a href="class_physical_layer.html#ab139a34e03a6fd5a781cd54da21d308f">More...</a><br /></td></tr>
-<tr class="separator:ab139a34e03a6fd5a781cd54da21d308f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb62c5a521aafc1e0525c58e9364482b"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#aeb62c5a521aafc1e0525c58e9364482b">transmit</a> (String &amp;str, uint8_t addr=0)</td></tr>
-<tr class="memdesc:aeb62c5a521aafc1e0525c58e9364482b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino String transmit method.  <a href="class_physical_layer.html#aeb62c5a521aafc1e0525c58e9364482b">More...</a><br /></td></tr>
-<tr class="separator:aeb62c5a521aafc1e0525c58e9364482b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add63d7d4fa8b14df5e185813794a49d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#add63d7d4fa8b14df5e185813794a49d5">PhysicalLayer</a> (float step, size_t maxLen)</td></tr>
+<tr class="memdesc:add63d7d4fa8b14df5e185813794a49d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_physical_layer.html#add63d7d4fa8b14df5e185813794a49d5">More...</a><br /></td></tr>
+<tr class="separator:add63d7d4fa8b14df5e185813794a49d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a492b2d057dd803c3884fa1adc8e22534"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a492b2d057dd803c3884fa1adc8e22534">transmit</a> (const char *str, uint8_t addr=0)</td></tr>
 <tr class="memdesc:a492b2d057dd803c3884fa1adc8e22534"><td class="mdescLeft">&#160;</td><td class="mdescRight">C-string transmit method.  <a href="class_physical_layer.html#a492b2d057dd803c3884fa1adc8e22534">More...</a><br /></td></tr>
 <tr class="separator:a492b2d057dd803c3884fa1adc8e22534"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dd42f8d5569487ea74f004ca652a709"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a3dd42f8d5569487ea74f004ca652a709">transmit</a> (uint8_t *data, size_t len, uint8_t addr=0)</td></tr>
 <tr class="memdesc:a3dd42f8d5569487ea74f004ca652a709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary transmit method. Must be implemented in module class.  <a href="class_physical_layer.html#a3dd42f8d5569487ea74f004ca652a709">More...</a><br /></td></tr>
 <tr class="separator:a3dd42f8d5569487ea74f004ca652a709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb1b090348d9091bfa3a0b5ba3d85b36"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#afb1b090348d9091bfa3a0b5ba3d85b36">receive</a> (String &amp;str, size_t len=0)</td></tr>
-<tr class="memdesc:afb1b090348d9091bfa3a0b5ba3d85b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino String receive method.  <a href="class_physical_layer.html#afb1b090348d9091bfa3a0b5ba3d85b36">More...</a><br /></td></tr>
-<tr class="separator:afb1b090348d9091bfa3a0b5ba3d85b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1bb9a5da26da8829795ebb72e9c666e"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#af1bb9a5da26da8829795ebb72e9c666e">sleep</a> ()</td></tr>
+<tr class="memdesc:af1bb9a5da26da8829795ebb72e9c666e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets module to sleep.  <a href="class_physical_layer.html#af1bb9a5da26da8829795ebb72e9c666e">More...</a><br /></td></tr>
+<tr class="separator:af1bb9a5da26da8829795ebb72e9c666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbcaf6aefcb77a354797e66222fe5018"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#acbcaf6aefcb77a354797e66222fe5018">standby</a> ()</td></tr>
 <tr class="memdesc:acbcaf6aefcb77a354797e66222fe5018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets module to standby.  <a href="class_physical_layer.html#acbcaf6aefcb77a354797e66222fe5018">More...</a><br /></td></tr>
 <tr class="separator:acbcaf6aefcb77a354797e66222fe5018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d5da4311092e3df6b193ff303a0c5e8"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a7d5da4311092e3df6b193ff303a0c5e8">standby</a> (uint8_t mode)</td></tr>
 <tr class="memdesc:a7d5da4311092e3df6b193ff303a0c5e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets module to a specific standby mode.  <a href="class_physical_layer.html#a7d5da4311092e3df6b193ff303a0c5e8">More...</a><br /></td></tr>
 <tr class="separator:a7d5da4311092e3df6b193ff303a0c5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18664ad615c5507ff1690baaca90b094"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a18664ad615c5507ff1690baaca90b094">startReceive</a> ()</td></tr>
+<tr class="memdesc:a18664ad615c5507ff1690baaca90b094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets module to received mode using its default configuration.  <a href="class_physical_layer.html#a18664ad615c5507ff1690baaca90b094">More...</a><br /></td></tr>
+<tr class="separator:a18664ad615c5507ff1690baaca90b094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13dbafeeb9dd9ede72cc4d907738ac48"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a13dbafeeb9dd9ede72cc4d907738ac48">startReceive</a> (uint32_t timeout, uint16_t irqFlags, uint16_t irqMask, size_t len)</td></tr>
+<tr class="memdesc:a13dbafeeb9dd9ede72cc4d907738ac48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt-driven receive method. A DIO pin will be activated when full packet is received. Must be implemented in module class.  <a href="class_physical_layer.html#a13dbafeeb9dd9ede72cc4d907738ac48">More...</a><br /></td></tr>
+<tr class="separator:a13dbafeeb9dd9ede72cc4d907738ac48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab82617fa3fa9f21d4cd427314ecc4af8"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#ab82617fa3fa9f21d4cd427314ecc4af8">receive</a> (uint8_t *data, size_t len)</td></tr>
 <tr class="memdesc:ab82617fa3fa9f21d4cd427314ecc4af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binary receive method. Must be implemented in module class.  <a href="class_physical_layer.html#ab82617fa3fa9f21d4cd427314ecc4af8">More...</a><br /></td></tr>
 <tr class="separator:ab82617fa3fa9f21d4cd427314ecc4af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af068e6e862c99e39d0261a7971dd56db"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#af068e6e862c99e39d0261a7971dd56db">startTransmit</a> (String &amp;str, uint8_t addr=0)</td></tr>
-<tr class="memdesc:af068e6e862c99e39d0261a7971dd56db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt-driven Arduino String transmit method. Unlike the standard transmit method, this one is non-blocking. Interrupt pin will be activated when transmission finishes.  <a href="class_physical_layer.html#af068e6e862c99e39d0261a7971dd56db">More...</a><br /></td></tr>
-<tr class="separator:af068e6e862c99e39d0261a7971dd56db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a923654706eff5118ef6e84214e837f27"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a923654706eff5118ef6e84214e837f27">startTransmit</a> (const char *str, uint8_t addr=0)</td></tr>
 <tr class="memdesc:a923654706eff5118ef6e84214e837f27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt-driven Arduino String transmit method. Unlike the standard transmit method, this one is non-blocking. Interrupt pin will be activated when transmission finishes.  <a href="class_physical_layer.html#a923654706eff5118ef6e84214e837f27">More...</a><br /></td></tr>
 <tr class="separator:a923654706eff5118ef6e84214e837f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,9 +150,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1de26f68b939f5af79ec29cc34c7be18"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a1de26f68b939f5af79ec29cc34c7be18">finishTransmit</a> ()</td></tr>
 <tr class="memdesc:a1de26f68b939f5af79ec29cc34c7be18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean up after transmission is done.  <a href="class_physical_layer.html#a1de26f68b939f5af79ec29cc34c7be18">More...</a><br /></td></tr>
 <tr class="separator:a1de26f68b939f5af79ec29cc34c7be18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8eed0e888a7c8742e89d2b850977de2"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#ae8eed0e888a7c8742e89d2b850977de2">readData</a> (String &amp;str, size_t len=0)</td></tr>
-<tr class="memdesc:ae8eed0e888a7c8742e89d2b850977de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data that was received after calling startReceive method.  <a href="class_physical_layer.html#ae8eed0e888a7c8742e89d2b850977de2">More...</a><br /></td></tr>
-<tr class="separator:ae8eed0e888a7c8742e89d2b850977de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3563453988a83d22dd07d4691543a300"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a3563453988a83d22dd07d4691543a300">readData</a> (uint8_t *data, size_t len)</td></tr>
 <tr class="memdesc:a3563453988a83d22dd07d4691543a300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data that was received after calling startReceive method.  <a href="class_physical_layer.html#a3563453988a83d22dd07d4691543a300">More...</a><br /></td></tr>
 <tr class="separator:a3563453988a83d22dd07d4691543a300"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +180,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2fe95169b5cdc8cabe1f2af66cad6ef6"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a2fe95169b5cdc8cabe1f2af66cad6ef6">getPacketLength</a> (bool update=true)</td></tr>
 <tr class="memdesc:a2fe95169b5cdc8cabe1f2af66cad6ef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query modem for the packet length of received payload. Must be implemented in module class.  <a href="class_physical_layer.html#a2fe95169b5cdc8cabe1f2af66cad6ef6">More...</a><br /></td></tr>
 <tr class="separator:a2fe95169b5cdc8cabe1f2af66cad6ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc94ab27a9ee6daaafa9b47dde5f75b"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#aabc94ab27a9ee6daaafa9b47dde5f75b">getRSSI</a> ()</td></tr>
+<tr class="memdesc:aabc94ab27a9ee6daaafa9b47dde5f75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets RSSI (Recorded Signal Strength Indicator) of the last received packet.  <a href="class_physical_layer.html#aabc94ab27a9ee6daaafa9b47dde5f75b">More...</a><br /></td></tr>
+<tr class="separator:aabc94ab27a9ee6daaafa9b47dde5f75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedddaf9460941b90e43e9005035faa0f"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#aedddaf9460941b90e43e9005035faa0f">getSNR</a> ()</td></tr>
+<tr class="memdesc:aedddaf9460941b90e43e9005035faa0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets SNR (Signal to Noise Ratio) of the last received packet. Only available for LoRa modem.  <a href="class_physical_layer.html#aedddaf9460941b90e43e9005035faa0f">More...</a><br /></td></tr>
+<tr class="separator:aedddaf9460941b90e43e9005035faa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd9171bd71aa80fb86113b612c42de53"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#acd9171bd71aa80fb86113b612c42de53">random</a> (int32_t max)</td></tr>
 <tr class="memdesc:acd9171bd71aa80fb86113b612c42de53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get truly random number in range 0 - max.  <a href="class_physical_layer.html#acd9171bd71aa80fb86113b612c42de53">More...</a><br /></td></tr>
 <tr class="separator:acd9171bd71aa80fb86113b612c42de53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,9 +204,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf96cf4f3cb4c82d44be581dbe615966"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#abf96cf4f3cb4c82d44be581dbe615966">setDirectAction</a> (void(*func)(void))</td></tr>
 <tr class="memdesc:abf96cf4f3cb4c82d44be581dbe615966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set interrupt service routine function to call when data bit is receveid in direct mode. Must be implemented in module class.  <a href="class_physical_layer.html#abf96cf4f3cb4c82d44be581dbe615966">More...</a><br /></td></tr>
 <tr class="separator:abf96cf4f3cb4c82d44be581dbe615966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae868adcc63ee0869999e8ccac86b6ff2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#ae868adcc63ee0869999e8ccac86b6ff2">readBit</a> (RADIOLIB_PIN_TYPE pin)</td></tr>
-<tr class="memdesc:ae868adcc63ee0869999e8ccac86b6ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to read and process data bit in direct reception mode. Must be implemented in module class.  <a href="class_physical_layer.html#ae868adcc63ee0869999e8ccac86b6ff2">More...</a><br /></td></tr>
-<tr class="separator:ae868adcc63ee0869999e8ccac86b6ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda61fc99cfa373153c50c78380ed885"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#acda61fc99cfa373153c50c78380ed885">readBit</a> (uint32_t pin)</td></tr>
+<tr class="memdesc:acda61fc99cfa373153c50c78380ed885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to read and process data bit in direct reception mode. Must be implemented in module class.  <a href="class_physical_layer.html#acda61fc99cfa373153c50c78380ed885">More...</a><br /></td></tr>
+<tr class="separator:acda61fc99cfa373153c50c78380ed885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab57182d32646861ef0d865e2740d6b26"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#ab57182d32646861ef0d865e2740d6b26">available</a> ()</td></tr>
 <tr class="memdesc:ab57182d32646861ef0d865e2740d6b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of direct mode bytes currently available in buffer.  <a href="class_physical_layer.html#ab57182d32646861ef0d865e2740d6b26">More...</a><br /></td></tr>
 <tr class="separator:ab57182d32646861ef0d865e2740d6b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -217,9 +217,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a4d5b30493c8d7fcfb784e128362d596c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a4d5b30493c8d7fcfb784e128362d596c">read</a> (bool drop=true)</td></tr>
 <tr class="memdesc:a4d5b30493c8d7fcfb784e128362d596c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get data from direct mode buffer.  <a href="class_physical_layer.html#a4d5b30493c8d7fcfb784e128362d596c">More...</a><br /></td></tr>
 <tr class="separator:a4d5b30493c8d7fcfb784e128362d596c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47c1d94d2ad2fd7eb5d11480b44cc368"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a47c1d94d2ad2fd7eb5d11480b44cc368">setDIOMapping</a> (RADIOLIB_PIN_TYPE pin, uint8_t value)</td></tr>
-<tr class="memdesc:a47c1d94d2ad2fd7eb5d11480b44cc368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure DIO pin mapping to get a given signal on a DIO pin (if available).  <a href="class_physical_layer.html#a47c1d94d2ad2fd7eb5d11480b44cc368">More...</a><br /></td></tr>
-<tr class="separator:a47c1d94d2ad2fd7eb5d11480b44cc368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349e8a22cd28ad89d45460fdeeefc05c"><td class="memItemLeft" align="right" valign="top">virtual int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a349e8a22cd28ad89d45460fdeeefc05c">setDIOMapping</a> (uint32_t pin, uint32_t value)</td></tr>
+<tr class="memdesc:a349e8a22cd28ad89d45460fdeeefc05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure DIO pin mapping to get a given signal on a DIO pin (if available).  <a href="class_physical_layer.html#a349e8a22cd28ad89d45460fdeeefc05c">More...</a><br /></td></tr>
+<tr class="separator:a349e8a22cd28ad89d45460fdeeefc05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c0beb4990876947f746751d45ac41d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#a63c0beb4990876947f746751d45ac41d">setDio1Action</a> (void(*func)(void))</td></tr>
+<tr class="memdesc:a63c0beb4990876947f746751d45ac41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets interrupt service routine to call when DIO1 activates.  <a href="class_physical_layer.html#a63c0beb4990876947f746751d45ac41d">More...</a><br /></td></tr>
+<tr class="separator:a63c0beb4990876947f746751d45ac41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30127e094d8148870b9631007ec6b29"><td class="memItemLeft" align="right" valign="top"><a id="ad30127e094d8148870b9631007ec6b29"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_physical_layer.html#ad30127e094d8148870b9631007ec6b29">clearDio1Action</a> ()</td></tr>
+<tr class="memdesc:ad30127e094d8148870b9631007ec6b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears interrupt service routine to call when DIO1 activates. <br /></td></tr>
+<tr class="separator:ad30127e094d8148870b9631007ec6b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -247,12 +254,21 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>FSK4Client</b></td><
 <tr class="memitem:a41ff2710d9e3a626becfa7a093900052"><td class="memItemLeft" align="right" valign="top"><a id="a41ff2710d9e3a626becfa7a093900052"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td></tr>
 <tr class="separator:a41ff2710d9e3a626becfa7a093900052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f435b28f04a142bdf136fc6fdc49b3"><td class="memItemLeft" align="right" valign="top"><a id="af9f435b28f04a142bdf136fc6fdc49b3"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>BellClient</b></td></tr>
+<tr class="separator:af9f435b28f04a142bdf136fc6fdc49b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3870f0bd18d0a60e195bc7d39058190c"><td class="memItemLeft" align="right" valign="top"><a id="a3870f0bd18d0a60e195bc7d39058190c"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>FT8Client</b></td></tr>
+<tr class="separator:a3870f0bd18d0a60e195bc7d39058190c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec0776e58831979405850594429e2d2"><td class="memItemLeft" align="right" valign="top"><a id="a9ec0776e58831979405850594429e2d2"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><b>LoRaWANNode</b></td></tr>
+<tr class="separator:a9ec0776e58831979405850594429e2d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN. Also extracts some common module-independent methods. Using this interface class allows to use the protocols on various modules without much code duplicity. Because this class is used mainly as interface, all of its virtual members must be implemented in the module class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5e02457f1d519cf81b1590a182321c62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e02457f1d519cf81b1590a182321c62">&#9670;&nbsp;</a></span>PhysicalLayer()</h2>
+<a id="add63d7d4fa8b14df5e185813794a49d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add63d7d4fa8b14df5e185813794a49d5">&#9670;&nbsp;</a></span>PhysicalLayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,13 +277,13 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
           <td class="memname">PhysicalLayer::PhysicalLayer </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>freqStep</em>, </td>
+          <td class="paramname"><em>step</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>maxPacketLength</em>&#160;</td>
+          <td class="paramname"><em>maxLen</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -280,8 +296,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Default constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">freqStep</td><td>Frequency step of the synthesizer in Hz.</td></tr>
-    <tr><td class="paramname">maxPacketLength</td><td>Maximum length of packet that can be received by the module. </td></tr>
+    <tr><td class="paramname">step</td><td>Frequency step of the synthesizer in Hz. </td></tr>
+    <tr><td class="paramname">maxLen</td><td>Maximum length of packet that can be received by the module. </td></tr>
   </table>
   </dd>
 </dl>
@@ -386,13 +402,73 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Query modem for the packet length of received payload. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">update</td><td>Update received packet length. Will return cached value when set to false.</td></tr>
+    <tr><td class="paramname">update</td><td>Update received packet length. Will return cached value when set to false. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Length of last received packet in bytes. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_s_x128x.html#a390fd0749b316eed67da7b54f4f24735">SX128x</a>, <a class="el" href="class_s_x127x.html#a462fa74275e67c296328a01f361892d5">SX127x</a>, <a class="el" href="class_s_x126x.html#ac4ef8c8751a3c09d64e431684840c987">SX126x</a>, <a class="el" href="class_si443x.html#a2d944669dc69ccd47f9e6c360f2ffd10">Si443x</a>, <a class="el" href="class_r_f69.html#a86a080086c0228d23e2cb77d2b1915c1">RF69</a>, <a class="el" href="classn_r_f24.html#a23ea1749c21863ebc5bd3a2b08d64f3b">nRF24</a>, and <a class="el" href="class_c_c1101.html#a122281f6a915b77ee9dafc9926e731a0">CC1101</a>.</p>
+
+</div>
+</div>
+<a id="aabc94ab27a9ee6daaafa9b47dde5f75b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabc94ab27a9ee6daaafa9b47dde5f75b">&#9670;&nbsp;</a></span>getRSSI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float PhysicalLayer::getRSSI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets RSSI (Recorded Signal Strength Indicator) of the last received packet. </p>
+<dl class="section return"><dt>Returns</dt><dd>RSSI of the last received packet in dBm. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#a94d3003277925e2dc3372548b3311008">SX128x</a>, <a class="el" href="class_r_f69.html#ac4fc3f2b178ef08caec3a9f548f44cd7">RF69</a>, and <a class="el" href="class_c_c1101.html#a490b2aa48bd7e5728fa82882411910dc">CC1101</a>.</p>
+
+</div>
+</div>
+<a id="aedddaf9460941b90e43e9005035faa0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedddaf9460941b90e43e9005035faa0f">&#9670;&nbsp;</a></span>getSNR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float PhysicalLayer::getSNR </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets SNR (Signal to Noise Ratio) of the last received packet. Only available for LoRa modem. </p>
+<dl class="section return"><dt>Returns</dt><dd>SNR of the last received packet in dB. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#a89ebf1f4f227cd35c0799c06d5d9c1d2">SX128x</a>, <a class="el" href="class_s_x127x.html#abc5069b39dc31b637ee561d5745e1deb">SX127x</a>, and <a class="el" href="class_s_x126x.html#ae36823d3539667bdf7d2f073bd4fa1ca">SX126x</a>.</p>
 
 </div>
 </div>
@@ -415,7 +491,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Get truly random number in range 0 - max. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">max</td><td>The maximum value of the random number (non-inclusive).</td></tr>
+    <tr><td class="paramname">max</td><td>The maximum value of the random number (non-inclusive). </td></tr>
   </table>
   </dd>
 </dl>
@@ -452,8 +528,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Get truly random number in range min - max. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">min</td><td>The minimum value of the random number (inclusive).</td></tr>
-    <tr><td class="paramname">max</td><td>The maximum value of the random number (non-inclusive).</td></tr>
+    <tr><td class="paramname">min</td><td>The minimum value of the random number (inclusive). </td></tr>
+    <tr><td class="paramname">max</td><td>The maximum value of the random number (non-inclusive). </td></tr>
   </table>
   </dd>
 </dl>
@@ -487,7 +563,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Get one truly random byte from RSSI noise. Must be implemented in module class. </p>
 <dl class="section return"><dt>Returns</dt><dd>TRNG byte. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_s_x128x.html#a95637e8addc48b0e1c30c2cf6f54354a">SX128x</a>, <a class="el" href="class_s_x127x.html#a68cba1ff1e6bfd9b3034c97f3932e450">SX127x</a>, <a class="el" href="class_s_x126x.html#a819bb3ced0f184a63cbfbef408a68561">SX126x</a>, <a class="el" href="class_si443x.html#a74848176d435227e601c86ff37b0edbe">Si443x</a>, <a class="el" href="class_r_f69.html#a2023f0f22aad00a702bdf598c2154043">RF69</a>, <a class="el" href="classn_r_f24.html#a5cc7cd54db2a6af1c9183a2d0653fe2e">nRF24</a>, and <a class="el" href="class_c_c1101.html#a7ecf49d530ea7c29dd755f56db17d833">CC1101</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#a95637e8addc48b0e1c30c2cf6f54354a">SX128x</a>, <a class="el" href="class_s_x127x.html#a68cba1ff1e6bfd9b3034c97f3932e450">SX127x</a>, <a class="el" href="class_s_x126x.html#a819bb3ced0f184a63cbfbef408a68561">SX126x</a>, <a class="el" href="class_si443x.html#a74848176d435227e601c86ff37b0edbe">Si443x</a>, <a class="el" href="class_r_f69.html#a2023f0f22aad00a702bdf598c2154043">RF69</a>, and <a class="el" href="class_c_c1101.html#a7ecf49d530ea7c29dd755f56db17d833">CC1101</a>.</p>
 
 </div>
 </div>
@@ -510,7 +586,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Get data from direct mode buffer. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">drop</td><td>Drop synchronization on read - next reading will require waiting for the sync word again. Defautls to true.</td></tr>
+    <tr><td class="paramname">drop</td><td>Drop synchronization on read - next reading will require waiting for the sync word again. Defaults to true. </td></tr>
   </table>
   </dd>
 </dl>
@@ -518,8 +594,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 
 </div>
 </div>
-<a id="ae868adcc63ee0869999e8ccac86b6ff2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae868adcc63ee0869999e8ccac86b6ff2">&#9670;&nbsp;</a></span>readBit()</h2>
+<a id="acda61fc99cfa373153c50c78380ed885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda61fc99cfa373153c50c78380ed885">&#9670;&nbsp;</a></span>readBit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -530,7 +606,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
         <tr>
           <td class="memname">void PhysicalLayer::readBit </td>
           <td>(</td>
-          <td class="paramtype">RADIOLIB_PIN_TYPE&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>pin</em></td><td>)</td>
           <td></td>
         </tr>
@@ -550,50 +626,12 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_s_x128x.html#a2dd0ecae9f54cf6943cf702ae15f5039">SX128x</a>, <a class="el" href="class_s_x127x.html#a071442611a32154e8b3db7981f242a53">SX127x</a>, <a class="el" href="class_s_x126x.html#aff80db65e546934980feac7e6c81dd80">SX126x</a>, <a class="el" href="class_si443x.html#a45d3ffcb312c34a2f6391be6d609d7b7">Si443x</a>, <a class="el" href="class_r_f69.html#a0ca79ae99c3e0c9d7c097a7acefd6faa">RF69</a>, <a class="el" href="classn_r_f24.html#a2db0cd487b03f937afc0bc2e3eccb6f6">nRF24</a>, and <a class="el" href="class_c_c1101.html#a5cebec89fc0fa0f5ccbce28c6ce7d2dc">CC1101</a>.</p>
-
-</div>
-</div>
-<a id="ae8eed0e888a7c8742e89d2b850977de2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8eed0e888a7c8742e89d2b850977de2">&#9670;&nbsp;</a></span>readData() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t PhysicalLayer::readData </td>
-          <td>(</td>
-          <td class="paramtype">String &amp;&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>len</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reads data that was received after calling startReceive method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>Address of Arduino String to save the received data.</td></tr>
-    <tr><td class="paramname">len</td><td>Expected number of characters in the message. When set to 0, the packet length will be retreived automatically. When more bytes than received are requested, only the number of bytes requested will be returned.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#aceeb18acbfedb20c6cf60e26d5275793">SX128x</a>, <a class="el" href="class_s_x127x.html#a1a2dc7554414f0ce2ee0db23087f698a">SX127x</a>, <a class="el" href="class_s_x126x.html#a8cdc4f25d4193dc75f9442874131eab3">SX126x</a>, <a class="el" href="class_si443x.html#af23d8eb0f1c436e6cc60361df13c08f7">Si443x</a>, <a class="el" href="class_r_f69.html#ab797840275fbccc40162225c32f5ffc3">RF69</a>, and <a class="el" href="class_c_c1101.html#a206e6c6f094aa7e68388fd9412cd969e">CC1101</a>.</p>
 
 </div>
 </div>
 <a id="a3563453988a83d22dd07d4691543a300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3563453988a83d22dd07d4691543a300">&#9670;&nbsp;</a></span>readData() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3563453988a83d22dd07d4691543a300">&#9670;&nbsp;</a></span>readData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -629,8 +667,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Reads data that was received after calling startReceive method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>Pointer to array to save the received binary data.</td></tr>
-    <tr><td class="paramname">len</td><td>Number of bytes that will be read. When set to 0, the packet length will be retreived automatically. When more bytes than received are requested, only the number of bytes requested will be returned.</td></tr>
+    <tr><td class="paramname">data</td><td>Pointer to array to save the received binary data. </td></tr>
+    <tr><td class="paramname">len</td><td>Number of bytes that will be read. When set to 0, the packet length will be retreived automatically. When more bytes than received are requested, only the number of bytes requested will be returned. </td></tr>
   </table>
   </dd>
 </dl>
@@ -640,46 +678,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 
 </div>
 </div>
-<a id="afb1b090348d9091bfa3a0b5ba3d85b36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb1b090348d9091bfa3a0b5ba3d85b36">&#9670;&nbsp;</a></span>receive() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t PhysicalLayer::receive </td>
-          <td>(</td>
-          <td class="paramtype">String &amp;&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>len</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Arduino String receive method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>Address of Arduino String to save the received data.</td></tr>
-    <tr><td class="paramname">len</td><td>Expected number of characters in the message. Leave as 0 if expecting a unknown size packet</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
-
-</div>
-</div>
 <a id="ab82617fa3fa9f21d4cd427314ecc4af8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab82617fa3fa9f21d4cd427314ecc4af8">&#9670;&nbsp;</a></span>receive() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82617fa3fa9f21d4cd427314ecc4af8">&#9670;&nbsp;</a></span>receive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -715,8 +715,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Binary receive method. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>Pointer to array to save the received binary data.</td></tr>
-    <tr><td class="paramname">len</td><td>Number of bytes that will be received. Must be known in advance for binary transmissions.</td></tr>
+    <tr><td class="paramname">data</td><td>Pointer to array to save the received binary data. </td></tr>
+    <tr><td class="paramname">len</td><td>Number of bytes that will be received. Must be known in advance for binary transmissions. </td></tr>
   </table>
   </dd>
 </dl>
@@ -783,13 +783,13 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Sets FSK bit rate. Only available in FSK mode. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">br</td><td>Bit rate to be set (in kbps).</td></tr>
+    <tr><td class="paramname">br</td><td>Bit rate to be set (in kbps). </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_s_x128x.html#a465ac114dbe6844069b5cb989f87c3ee">SX128x</a>, <a class="el" href="class_s_x127x.html#a606d839b3a992c681ac9ad7ca6020022">SX127x</a>, <a class="el" href="class_s_x126x.html#a7deeef45d7f64a4018a3e56aaea4eb0e">SX126x</a>, <a class="el" href="class_si443x.html#ad43575e731dd7e66d5ad9e6dccd27170">Si443x</a>, <a class="el" href="class_r_f69.html#ad7f8132912a5dbf38c5cf676ac167d13">RF69</a>, <a class="el" href="classn_r_f24.html#a0873f58ae62e41cff99813e21cc8b02a">nRF24</a>, and <a class="el" href="class_c_c1101.html#aa53427cabcda0778f287ed1d850bbe37">CC1101</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_x1278.html#afd6df07fc4972cc656f05670e6802f67">SX1278</a>, <a class="el" href="class_s_x1272.html#ab5c9a79d72996c3d793cee812b0aded5">SX1272</a>, <a class="el" href="class_s_x128x.html#a465ac114dbe6844069b5cb989f87c3ee">SX128x</a>, <a class="el" href="class_s_x126x.html#a7deeef45d7f64a4018a3e56aaea4eb0e">SX126x</a>, <a class="el" href="class_si443x.html#ad43575e731dd7e66d5ad9e6dccd27170">Si443x</a>, <a class="el" href="class_r_f69.html#ad7f8132912a5dbf38c5cf676ac167d13">RF69</a>, <a class="el" href="classn_r_f24.html#a0873f58ae62e41cff99813e21cc8b02a">nRF24</a>, and <a class="el" href="class_c_c1101.html#aa53427cabcda0778f287ed1d850bbe37">CC1101</a>.</p>
 
 </div>
 </div>
@@ -820,7 +820,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Sets GFSK data shaping. Only available in FSK mode. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sh</td><td>Shaping to be set. See <a class="el" href="group__config__shaping.html">Data shaping filter values aliases.</a> for possible values.</td></tr>
+    <tr><td class="paramname">sh</td><td>Shaping to be set. See <a class="el" href="group__config__shaping.html">Data shaping filter values aliases.</a> for possible values. </td></tr>
   </table>
   </dd>
 </dl>
@@ -830,8 +830,44 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 
 </div>
 </div>
-<a id="a47c1d94d2ad2fd7eb5d11480b44cc368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c1d94d2ad2fd7eb5d11480b44cc368">&#9670;&nbsp;</a></span>setDIOMapping()</h2>
+<a id="a63c0beb4990876947f746751d45ac41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63c0beb4990876947f746751d45ac41d">&#9670;&nbsp;</a></span>setDio1Action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicalLayer::setDio1Action </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void)&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets interrupt service routine to call when DIO1 activates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>ISR to call. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#a0759fb31b3ce5bf1c832259c9c2245ed">SX128x</a>, <a class="el" href="class_s_x126x.html#a0da667fe702d7b4aafaa4bf7e69ea40d">SX126x</a>, <a class="el" href="class_s_t_m32_w_lx.html#a63d61bc5057e9da3d0ea12feae67122e">STM32WLx</a>, and <a class="el" href="class_r_f69.html#aa72ad2ac5238bd87886684064b7494cf">RF69</a>.</p>
+
+</div>
+</div>
+<a id="a349e8a22cd28ad89d45460fdeeefc05c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a349e8a22cd28ad89d45460fdeeefc05c">&#9670;&nbsp;</a></span>setDIOMapping()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -842,13 +878,13 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
         <tr>
           <td class="memname">int16_t PhysicalLayer::setDIOMapping </td>
           <td>(</td>
-          <td class="paramtype">RADIOLIB_PIN_TYPE&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>pin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -867,14 +903,14 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Configure DIO pin mapping to get a given signal on a DIO pin (if available). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pin</td><td>Pin number onto which a signal is to be placed.</td></tr>
-    <tr><td class="paramname">value</td><td>The value that indicates which function to place on that pin. See chip datasheet for details.</td></tr>
+    <tr><td class="paramname">pin</td><td>Pin number onto which a signal is to be placed. </td></tr>
+    <tr><td class="paramname">value</td><td>The value that indicates which function to place on that pin. See chip datasheet for details. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_s_x127x.html#adbea7515add3d81c3024ceb0d570266b">SX127x</a>, <a class="el" href="class_r_f69.html#a4b879c689b19036411d884f6657f95db">RF69</a>, and <a class="el" href="class_c_c1101.html#a1acad996e9452c504cf0f89806c46c8a">CC1101</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_x127x.html#a103b606166eba8c69bff061270744768">SX127x</a>, <a class="el" href="class_r_f69.html#a0d7720672c0aa0cf4464d544540cbada">RF69</a>, and <a class="el" href="class_c_c1101.html#a009c31564866d8d14759f17f29b08ee6">CC1101</a>.</p>
 
 </div>
 </div>
@@ -910,7 +946,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_s_x128x.html#aff1b549077b9d752f53bf9dfc6840236">SX128x</a>, <a class="el" href="class_s_x127x.html#aa3f409359eafa5988e8e4c2948735238">SX127x</a>, <a class="el" href="class_s_x126x.html#abbf8b4623da8c2caa83a8c3d35a44d0a">SX126x</a>, <a class="el" href="class_si443x.html#a55fae20e81755c8b014d080741d61913">Si443x</a>, <a class="el" href="class_r_f69.html#a7fd34332bec08828080b1b4a0f8c6e28">RF69</a>, <a class="el" href="classn_r_f24.html#a3da63a447659f92153654d31a5d2854c">nRF24</a>, and <a class="el" href="class_c_c1101.html#a5161fa10b19d857840579601ef565363">CC1101</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#aff1b549077b9d752f53bf9dfc6840236">SX128x</a>, <a class="el" href="class_s_x127x.html#aa3f409359eafa5988e8e4c2948735238">SX127x</a>, <a class="el" href="class_s_x126x.html#abbf8b4623da8c2caa83a8c3d35a44d0a">SX126x</a>, <a class="el" href="class_si443x.html#a55fae20e81755c8b014d080741d61913">Si443x</a>, <a class="el" href="class_r_f69.html#a7fd34332bec08828080b1b4a0f8c6e28">RF69</a>, and <a class="el" href="class_c_c1101.html#a5161fa10b19d857840579601ef565363">CC1101</a>.</p>
 
 </div>
 </div>
@@ -943,8 +979,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Set sync word to be used to determine start of packet in direct reception mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">syncWord</td><td>Sync word bits.</td></tr>
-    <tr><td class="paramname">len</td><td>Sync word length in bits. Set to zero to disable sync word matching.</td></tr>
+    <tr><td class="paramname">syncWord</td><td>Sync word bits. </td></tr>
+    <tr><td class="paramname">len</td><td>Sync word length in bits. Set to zero to disable sync word matching. </td></tr>
   </table>
   </dd>
 </dl>
@@ -979,7 +1015,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Sets FSK data encoding. Only available in FSK mode. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">enc</td><td>Encoding to be used. See <a class="el" href="group__config__encoding.html">Encoding type aliases.</a> for possible values.</td></tr>
+    <tr><td class="paramname">enc</td><td>Encoding to be used. See <a class="el" href="group__config__encoding.html">Encoding type aliases.</a> for possible values. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1016,7 +1052,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Sets carrier frequency. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">freq</td><td>Carrier frequency to be set in MHz.</td></tr>
+    <tr><td class="paramname">freq</td><td>Carrier frequency to be set in MHz. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1053,13 +1089,43 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Sets FSK frequency deviation from carrier frequency. Only available in FSK mode. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">freqDev</td><td>Frequency deviation to be set (in kHz).</td></tr>
+    <tr><td class="paramname">freqDev</td><td>Frequency deviation to be set (in kHz). </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_s_x128x.html#a26d0d02e5e53a3172df9208fa343a3f1">SX128x</a>, <a class="el" href="class_s_x127x.html#a448ea8a6a6011a9cdddd4e09bd6c9679">SX127x</a>, <a class="el" href="class_s_x126x.html#a7cd95a5f2e39ae8fb1a3040e77fa21a3">SX126x</a>, <a class="el" href="class_si443x.html#a7c4e6caa95e5622f6f515ba0339a1c66">Si443x</a>, <a class="el" href="class_r_f69.html#adb9fbfedf95f34ac537815870b98a9be">RF69</a>, <a class="el" href="classn_r_f24.html#a5170284f0a5535de7d00216d450b87a4">nRF24</a>, and <a class="el" href="class_c_c1101.html#a0d69713b9f20c9de354c13c3167b18b3">CC1101</a>.</p>
+
+</div>
+</div>
+<a id="af1bb9a5da26da8829795ebb72e9c666e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1bb9a5da26da8829795ebb72e9c666e">&#9670;&nbsp;</a></span>sleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t PhysicalLayer::sleep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets module to sleep. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_s_x127x.html#a44501ec8f8ac6084467b94516b1337df">SX127x</a>, <a class="el" href="class_si443x.html#ada90718aeb67d7f0e9899da534de9695">Si443x</a>, <a class="el" href="class_r_f69.html#a472a04041551cb38d2223fb34f71d8eb">RF69</a>, and <a class="el" href="classn_r_f24.html#a033287e33c532638c11e2775a073f297">nRF24</a>.</p>
 
 </div>
 </div>
@@ -1120,7 +1186,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Sets module to a specific standby mode. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_s_x128x.html#aa11ba80f0cebb3e6927c775ad5f96b4e">SX128x</a>, and <a class="el" href="class_s_x126x.html#ad7569396f09f3867dc1bd4d4a0613acd">SX126x</a>.</p>
+<p>Reimplemented in <a class="el" href="class_s_x127x.html#aa565bbff460e487672953dc05d335cb0">SX127x</a>, <a class="el" href="class_si443x.html#acbc0f95f32ca961294666405596ff529">Si443x</a>, <a class="el" href="class_r_f69.html#a6e3002ab0c58e2087a7d101eda7afa82">RF69</a>, <a class="el" href="classn_r_f24.html#a03e9ae7fbd0d55887acf1996df28ed5b">nRF24</a>, and <a class="el" href="class_c_c1101.html#af374ad0ecd820a01baef7d177a30132a">CC1101</a>.</p>
 
 </div>
 </div>
@@ -1144,8 +1210,100 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 
 </div>
 </div>
+<a id="a18664ad615c5507ff1690baaca90b094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18664ad615c5507ff1690baaca90b094">&#9670;&nbsp;</a></span>startReceive() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t PhysicalLayer::startReceive </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets module to received mode using its default configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_s_x128x.html#afe700968c1e02e335c389b59d950ca39">SX128x</a>, <a class="el" href="class_s_x127x.html#ae90a5df2d414dfcafd1e3b8aa790f9fd">SX127x</a>, <a class="el" href="class_s_x126x.html#a16e8b271dc5e9af3015dd2901153cbde">SX126x</a>, <a class="el" href="class_si443x.html#a10f886fc534a85bbf8c1aeb9b5ffe4f2">Si443x</a>, <a class="el" href="class_r_f69.html#afae38fa64242043de34096bf497725f1">RF69</a>, <a class="el" href="classn_r_f24.html#af4f443da5d90e032e5f2f65420515f9c">nRF24</a>, and <a class="el" href="class_c_c1101.html#af727750d05be0bcef4bb8ac260d110e3">CC1101</a>.</p>
+
+</div>
+</div>
+<a id="a13dbafeeb9dd9ede72cc4d907738ac48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13dbafeeb9dd9ede72cc4d907738ac48">&#9670;&nbsp;</a></span>startReceive() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t PhysicalLayer::startReceive </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>timeout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>irqFlags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>irqMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Interrupt-driven receive method. A DIO pin will be activated when full packet is received. Must be implemented in module class. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">timeout</td><td>Raw timeout value. Some modules use this argument to specify operation mode (single vs. continuous receive). </td></tr>
+    <tr><td class="paramname">irqFlags</td><td>Sets the IRQ flags. </td></tr>
+    <tr><td class="paramname">irqMask</td><td>Sets the mask of IRQ flags that will trigger the DIO pin. </td></tr>
+    <tr><td class="paramname">len</td><td>Packet length, needed for some modules under special circumstances (e.g. LoRa implicit header mode). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
+
+<p>Reimplemented in <a class="el" href="class_s_x126x.html#a0d5ce0a8d2a5b275676d9d98124312ce">SX126x</a>, <a class="el" href="class_si443x.html#a1070a6cde04a01d4a35da670f65ce539">Si443x</a>, <a class="el" href="class_r_f69.html#ae8b6f87d4b798dc8fcda07bfa5af5a66">RF69</a>, <a class="el" href="classn_r_f24.html#ad672f45f73267249265044063e19b4fa">nRF24</a>, <a class="el" href="class_c_c1101.html#a22ebe5b75a09c420cf6e6464dac3fe33">CC1101</a>, and <a class="el" href="class_s_x127x.html#a0ae533401c801f1d4034eb3db8b1f30c">SX127x</a>.</p>
+
+</div>
+</div>
 <a id="a923654706eff5118ef6e84214e837f27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a923654706eff5118ef6e84214e837f27">&#9670;&nbsp;</a></span>startTransmit() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a923654706eff5118ef6e84214e837f27">&#9670;&nbsp;</a></span>startTransmit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1173,46 +1331,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Interrupt-driven Arduino String transmit method. Unlike the standard transmit method, this one is non-blocking. Interrupt pin will be activated when transmission finishes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>C-string that will be transmitted.</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
-
-</div>
-</div>
-<a id="af068e6e862c99e39d0261a7971dd56db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af068e6e862c99e39d0261a7971dd56db">&#9670;&nbsp;</a></span>startTransmit() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t PhysicalLayer::startTransmit </td>
-          <td>(</td>
-          <td class="paramtype">String &amp;&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>addr</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Interrupt-driven Arduino String transmit method. Unlike the standard transmit method, this one is non-blocking. Interrupt pin will be activated when transmission finishes. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>Address of Arduino String that will be transmitted.</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
+    <tr><td class="paramname">str</td><td>C-string that will be transmitted. </td></tr>
+    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1221,7 +1341,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 </div>
 </div>
 <a id="ad59e37ce0606dc8051e40be9d14cfec3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad59e37ce0606dc8051e40be9d14cfec3">&#9670;&nbsp;</a></span>startTransmit() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad59e37ce0606dc8051e40be9d14cfec3">&#9670;&nbsp;</a></span>startTransmit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1263,9 +1383,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Interrupt-driven binary transmit method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>Binary data that will be transmitted.</td></tr>
-    <tr><td class="paramname">len</td><td>Length of binary data to transmit (in bytes).</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
+    <tr><td class="paramname">data</td><td>Binary data that will be transmitted. </td></tr>
+    <tr><td class="paramname">len</td><td>Length of binary data to transmit (in bytes). </td></tr>
+    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1275,46 +1395,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 
 </div>
 </div>
-<a id="ab139a34e03a6fd5a781cd54da21d308f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab139a34e03a6fd5a781cd54da21d308f">&#9670;&nbsp;</a></span>transmit() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t PhysicalLayer::transmit </td>
-          <td>(</td>
-          <td class="paramtype">__FlashStringHelper *&#160;</td>
-          <td class="paramname"><em>fstr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>addr</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Arduino Flash String transmit method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>Pointer to Arduino Flash String that will be transmitted.</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
-
-</div>
-</div>
 <a id="a492b2d057dd803c3884fa1adc8e22534"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a492b2d057dd803c3884fa1adc8e22534">&#9670;&nbsp;</a></span>transmit() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a492b2d057dd803c3884fa1adc8e22534">&#9670;&nbsp;</a></span>transmit() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1342,46 +1424,8 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>C-string transmit method. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">str</td><td>C-string that will be transmitted.</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
-
-</div>
-</div>
-<a id="aeb62c5a521aafc1e0525c58e9364482b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb62c5a521aafc1e0525c58e9364482b">&#9670;&nbsp;</a></span>transmit() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t PhysicalLayer::transmit </td>
-          <td>(</td>
-          <td class="paramtype">String &amp;&#160;</td>
-          <td class="paramname"><em>str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>addr</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Arduino String transmit method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">str</td><td>Address of Arduino string that will be transmitted.</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
+    <tr><td class="paramname">str</td><td>C-string that will be transmitted. </td></tr>
+    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1390,7 +1434,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 </div>
 </div>
 <a id="a3dd42f8d5569487ea74f004ca652a709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3dd42f8d5569487ea74f004ca652a709">&#9670;&nbsp;</a></span>transmit() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dd42f8d5569487ea74f004ca652a709">&#9670;&nbsp;</a></span>transmit() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1432,9 +1476,9 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Binary transmit method. Must be implemented in module class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>Binary data that will be transmitted.</td></tr>
-    <tr><td class="paramname">len</td><td>Length of binary data to transmit (in bytes).</td></tr>
-    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode.</td></tr>
+    <tr><td class="paramname">data</td><td>Binary data that will be transmitted. </td></tr>
+    <tr><td class="paramname">len</td><td>Length of binary data to transmit (in bytes). </td></tr>
+    <tr><td class="paramname">addr</td><td>Node address to transmit the packet to. Only used in FSK mode. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1471,7 +1515,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>PagerClient</b></td>
 <p>Enables direct transmission mode on pins DIO1 (clock) and DIO2 (data). Must be implemented in module class. While in direct mode, the module will not be able to transmit or receive packets. Can only be activated in FSK mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">frf</td><td>24-bit raw frequency value to start transmitting at. Required for quick frequency shifts in RTTY.</td></tr>
+    <tr><td class="paramname">frf</td><td>24-bit raw frequency value to start transmitting at. Required for quick frequency shifts in RTTY. </td></tr>
   </table>
   </dd>
 </dl>
