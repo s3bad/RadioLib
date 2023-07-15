@@ -111,9 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abf66e5649ac09e5997e29cf637803261"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_l_c_c68.html#abf66e5649ac09e5997e29cf637803261">LLCC68</a> (<a class="el" href="class_module.html">Module</a> *mod)</td></tr>
 <tr class="memdesc:abf66e5649ac09e5997e29cf637803261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_l_l_c_c68.html#abf66e5649ac09e5997e29cf637803261">More...</a><br /></td></tr>
 <tr class="separator:abf66e5649ac09e5997e29cf637803261"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53593942089544c09bfb5b665184054b"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_l_c_c68.html#a53593942089544c09bfb5b665184054b">begin</a> (float freq=434.0, float bw=125.0, uint8_t sf=9, uint8_t cr=7, uint8_t syncWord=RADIOLIB_SX126X_SYNC_WORD_PRIVATE, int8_t pwr=10, uint16_t preambleLength=8, float tcxoVoltage=1.6, bool useRegulatorLDO=false)</td></tr>
-<tr class="memdesc:a53593942089544c09bfb5b665184054b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization method for LoRa modem.  <a href="class_l_l_c_c68.html#a53593942089544c09bfb5b665184054b">More...</a><br /></td></tr>
-<tr class="separator:a53593942089544c09bfb5b665184054b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa835ee301567f7dac079b42a2055c38c"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_l_c_c68.html#aa835ee301567f7dac079b42a2055c38c">begin</a> (float freq=434.0, float bw=125.0, uint8_t sf=9, uint8_t cr=7, uint8_t syncWord=RADIOLIB_SX126X_SYNC_WORD_PRIVATE, int8_t pwr=10, uint16_t preambleLength=8, float tcxoVoltage=0, bool useRegulatorLDO=false)</td></tr>
+<tr class="memdesc:aa835ee301567f7dac079b42a2055c38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization method for LoRa modem.  <a href="class_l_l_c_c68.html#aa835ee301567f7dac079b42a2055c38c">More...</a><br /></td></tr>
+<tr class="separator:aa835ee301567f7dac079b42a2055c38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f6c206657304809ee30bd9761ef79bf"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_l_c_c68.html#a6f6c206657304809ee30bd9761ef79bf">setBandwidth</a> (float bw)</td></tr>
 <tr class="memdesc:a6f6c206657304809ee30bd9761ef79bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets LoRa bandwidth. Allowed values are 125.0, 250.0 and 500.0 kHz.  <a href="class_l_l_c_c68.html#a6f6c206657304809ee30bd9761ef79bf">More...</a><br /></td></tr>
 <tr class="separator:a6f6c206657304809ee30bd9761ef79bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +186,20 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a6848afe4c16a47edb3e0b342a86ecdfd">clearDio1Action</a> ()</td></tr>
 <tr class="memdesc:a6848afe4c16a47edb3e0b342a86ecdfd inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears interrupt service routine to call when DIO1 activates. <br /></td></tr>
 <tr class="separator:a6848afe4c16a47edb3e0b342a86ecdfd inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2bc2016783a3fcad3ad4e6518ee7fc8 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#ad2bc2016783a3fcad3ad4e6518ee7fc8">setPacketReceivedAction</a> (void(*func)(void))</td></tr>
+<tr class="memdesc:ad2bc2016783a3fcad3ad4e6518ee7fc8 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets interrupt service routine to call when a packet is received.  <a href="class_s_x126x.html#ad2bc2016783a3fcad3ad4e6518ee7fc8">More...</a><br /></td></tr>
+<tr class="separator:ad2bc2016783a3fcad3ad4e6518ee7fc8 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0306b28b4ce36bab5fc0199aef90f2 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top"><a id="acd0306b28b4ce36bab5fc0199aef90f2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#acd0306b28b4ce36bab5fc0199aef90f2">clearPacketReceivedAction</a> ()</td></tr>
+<tr class="memdesc:acd0306b28b4ce36bab5fc0199aef90f2 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears interrupt service routine to call when a packet is received. <br /></td></tr>
+<tr class="separator:acd0306b28b4ce36bab5fc0199aef90f2 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0417720a61b2d587e5633360cbecb33c inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a0417720a61b2d587e5633360cbecb33c">setPacketSentAction</a> (void(*func)(void))</td></tr>
+<tr class="memdesc:a0417720a61b2d587e5633360cbecb33c inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets interrupt service routine to call when a packet is sent.  <a href="class_s_x126x.html#a0417720a61b2d587e5633360cbecb33c">More...</a><br /></td></tr>
+<tr class="separator:a0417720a61b2d587e5633360cbecb33c inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ffc659019932dbf1fda881710054cfb inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top"><a id="a0ffc659019932dbf1fda881710054cfb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a0ffc659019932dbf1fda881710054cfb">clearPacketSentAction</a> ()</td></tr>
+<tr class="memdesc:a0ffc659019932dbf1fda881710054cfb inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears interrupt service routine to call when a packet is sent. <br /></td></tr>
+<tr class="separator:a0ffc659019932dbf1fda881710054cfb inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab843614658a79db7aa24e48d5b6e84f1 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#ab843614658a79db7aa24e48d5b6e84f1">startTransmit</a> (uint8_t *data, size_t len, uint8_t addr=0) override</td></tr>
 <tr class="memdesc:ab843614658a79db7aa24e48d5b6e84f1 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interrupt-driven binary transmit method. Overloads for string-based transmissions are implemented in <a class="el" href="class_physical_layer.html" title="Provides common interface for protocols that run on LoRa/FSK modules, such as RTTY or LoRaWAN....">PhysicalLayer</a>.  <a href="class_s_x126x.html#ab843614658a79db7aa24e48d5b6e84f1">More...</a><br /></td></tr>
 <tr class="separator:ab843614658a79db7aa24e48d5b6e84f1 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,15 +248,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa668babb0bd129b2facee9fd280525ab inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#aa668babb0bd129b2facee9fd280525ab">getCurrentLimit</a> ()</td></tr>
 <tr class="memdesc:aa668babb0bd129b2facee9fd280525ab inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads current protection limit.  <a href="class_s_x126x.html#aa668babb0bd129b2facee9fd280525ab">More...</a><br /></td></tr>
 <tr class="separator:aa668babb0bd129b2facee9fd280525ab inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab00f765bbfbfaa8c693532ea3a90c29b inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#ab00f765bbfbfaa8c693532ea3a90c29b">setPreambleLength</a> (uint16_t preambleLength)</td></tr>
-<tr class="memdesc:ab00f765bbfbfaa8c693532ea3a90c29b inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets preamble length for LoRa or FSK modem. Allowed values range from 1 to 65535.  <a href="class_s_x126x.html#ab00f765bbfbfaa8c693532ea3a90c29b">More...</a><br /></td></tr>
-<tr class="separator:ab00f765bbfbfaa8c693532ea3a90c29b inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6274222ccf534e98e3cd17dfa1520d4 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#ad6274222ccf534e98e3cd17dfa1520d4">setPreambleLength</a> (size_t preambleLength) override</td></tr>
+<tr class="memdesc:ad6274222ccf534e98e3cd17dfa1520d4 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets preamble length for LoRa or FSK modem. Allowed values range from 1 to 65535.  <a href="class_s_x126x.html#ad6274222ccf534e98e3cd17dfa1520d4">More...</a><br /></td></tr>
+<tr class="separator:ad6274222ccf534e98e3cd17dfa1520d4 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cd95a5f2e39ae8fb1a3040e77fa21a3 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a7cd95a5f2e39ae8fb1a3040e77fa21a3">setFrequencyDeviation</a> (float freqDev) override</td></tr>
 <tr class="memdesc:a7cd95a5f2e39ae8fb1a3040e77fa21a3 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK frequency deviation. Allowed values range from 0.0 to 200.0 kHz.  <a href="class_s_x126x.html#a7cd95a5f2e39ae8fb1a3040e77fa21a3">More...</a><br /></td></tr>
 <tr class="separator:a7cd95a5f2e39ae8fb1a3040e77fa21a3 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7deeef45d7f64a4018a3e56aaea4eb0e inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a7deeef45d7f64a4018a3e56aaea4eb0e">setBitRate</a> (float br)</td></tr>
 <tr class="memdesc:a7deeef45d7f64a4018a3e56aaea4eb0e inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK bit rate. Allowed values range from 0.6 to 300.0 kbps.  <a href="class_s_x126x.html#a7deeef45d7f64a4018a3e56aaea4eb0e">More...</a><br /></td></tr>
 <tr class="separator:a7deeef45d7f64a4018a3e56aaea4eb0e inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af30a581d31feae6f50c0591d1ee113f1 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#af30a581d31feae6f50c0591d1ee113f1">setDataRate</a> (<a class="el" href="union_data_rate__t.html">DataRate_t</a> dr) override</td></tr>
+<tr class="memdesc:af30a581d31feae6f50c0591d1ee113f1 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set data.  <a href="class_s_x126x.html#af30a581d31feae6f50c0591d1ee113f1">More...</a><br /></td></tr>
+<tr class="separator:af30a581d31feae6f50c0591d1ee113f1 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d443c02d4620cda32c63a00c6bcc22 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a59d443c02d4620cda32c63a00c6bcc22">setRxBandwidth</a> (float rxBw)</td></tr>
 <tr class="memdesc:a59d443c02d4620cda32c63a00c6bcc22 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK receiver bandwidth. Allowed values are 4.8, 5.8, 7.3, 9.7, 11.7, 14.6, 19.5, 23.4, 29.3, 39.0, 46.9, 58.6, 78.2, 93.8, 117.3, 156.2, 187.2, 234.3, 312.0, 373.6 and 467.0 kHz.  <a href="class_s_x126x.html#a59d443c02d4620cda32c63a00c6bcc22">More...</a><br /></td></tr>
 <tr class="separator:a59d443c02d4620cda32c63a00c6bcc22 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,9 +269,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a1d8f4deb555844b24c2426dd86e69676 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a1d8f4deb555844b24c2426dd86e69676">setDataShaping</a> (uint8_t sh) override</td></tr>
 <tr class="memdesc:a1d8f4deb555844b24c2426dd86e69676 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets time-bandwidth product of Gaussian filter applied for shaping. Allowed values are RADIOLIB_SHAPING_0_3, RADIOLIB_SHAPING_0_5, RADIOLIB_SHAPING_0_7 or RADIOLIB_SHAPING_1_0. Set to RADIOLIB_SHAPING_NONE to disable data shaping.  <a href="class_s_x126x.html#a1d8f4deb555844b24c2426dd86e69676">More...</a><br /></td></tr>
 <tr class="separator:a1d8f4deb555844b24c2426dd86e69676 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e6d7831f35893a5b8328c10a2901bf inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a38e6d7831f35893a5b8328c10a2901bf">setSyncWord</a> (uint8_t *syncWord, uint8_t len)</td></tr>
-<tr class="memdesc:a38e6d7831f35893a5b8328c10a2901bf inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK sync word in the form of array of up to 8 bytes.  <a href="class_s_x126x.html#a38e6d7831f35893a5b8328c10a2901bf">More...</a><br /></td></tr>
-<tr class="separator:a38e6d7831f35893a5b8328c10a2901bf inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827a4754ea53388513d263e5d9171395 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a827a4754ea53388513d263e5d9171395">setSyncWord</a> (uint8_t *syncWord, size_t len) override</td></tr>
+<tr class="memdesc:a827a4754ea53388513d263e5d9171395 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK sync word in the form of array of up to 8 bytes.  <a href="class_s_x126x.html#a827a4754ea53388513d263e5d9171395">More...</a><br /></td></tr>
+<tr class="separator:a827a4754ea53388513d263e5d9171395 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac594fbb30c5010658c970a64654c7162 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#ac594fbb30c5010658c970a64654c7162">setSyncBits</a> (uint8_t *syncWord, uint8_t bitsLen)</td></tr>
 <tr class="memdesc:ac594fbb30c5010658c970a64654c7162 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets FSK sync word in the form of array of up to 8 bytes.  <a href="class_s_x126x.html#ac594fbb30c5010658c970a64654c7162">More...</a><br /></td></tr>
 <tr class="separator:ac594fbb30c5010658c970a64654c7162 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -333,9 +350,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a819bb3ced0f184a63cbfbef408a68561 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a819bb3ced0f184a63cbfbef408a68561">randomByte</a> ()</td></tr>
 <tr class="memdesc:a819bb3ced0f184a63cbfbef408a68561 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get one truly random byte from RSSI noise.  <a href="class_s_x126x.html#a819bb3ced0f184a63cbfbef408a68561">More...</a><br /></td></tr>
 <tr class="separator:a819bb3ced0f184a63cbfbef408a68561 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249c905c1752feb7d228f78a15d5b2e1 inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a249c905c1752feb7d228f78a15d5b2e1">invertIQ</a> (bool enable)</td></tr>
-<tr class="memdesc:a249c905c1752feb7d228f78a15d5b2e1 inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable inversion of the I and Q signals.  <a href="class_s_x126x.html#a249c905c1752feb7d228f78a15d5b2e1">More...</a><br /></td></tr>
-<tr class="separator:a249c905c1752feb7d228f78a15d5b2e1 inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269c8e4ae0d21af88e9422ccf9708c1e inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#a269c8e4ae0d21af88e9422ccf9708c1e">invertIQ</a> (bool enable) override</td></tr>
+<tr class="memdesc:a269c8e4ae0d21af88e9422ccf9708c1e inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable inversion of the I and Q signals.  <a href="class_s_x126x.html#a269c8e4ae0d21af88e9422ccf9708c1e">More...</a><br /></td></tr>
+<tr class="separator:a269c8e4ae0d21af88e9422ccf9708c1e inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbf8b4623da8c2caa83a8c3d35a44d0a inherit pub_methods_class_s_x126x"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_x126x.html#abbf8b4623da8c2caa83a8c3d35a44d0a">setDirectAction</a> (void(*func)(void))</td></tr>
 <tr class="memdesc:abbf8b4623da8c2caa83a8c3d35a44d0a inherit pub_methods_class_s_x126x"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set interrupt service routine function to call when data bit is receveid in direct mode.  <a href="class_s_x126x.html#abbf8b4623da8c2caa83a8c3d35a44d0a">More...</a><br /></td></tr>
 <tr class="separator:abbf8b4623da8c2caa83a8c3d35a44d0a inherit pub_methods_class_s_x126x"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -462,8 +479,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a53593942089544c09bfb5b665184054b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53593942089544c09bfb5b665184054b">&#9670;&nbsp;</a></span>begin()</h2>
+<a id="aa835ee301567f7dac079b42a2055c38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa835ee301567f7dac079b42a2055c38c">&#9670;&nbsp;</a></span>begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,7 +531,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>tcxoVoltage</em> = <code>1.6</code>, </td>
+          <td class="paramname"><em>tcxoVoltage</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -540,7 +557,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
     <tr><td class="paramname">syncWord</td><td>1-byte LoRa sync word. Defaults to RADIOLIB_SX126X_SYNC_WORD_PRIVATE (0x12). </td></tr>
     <tr><td class="paramname">pwr</td><td>Output power in dBm. Defaults to 10 dBm. </td></tr>
     <tr><td class="paramname">preambleLength</td><td>LoRa preamble length in symbols. Defaults to 8 symbols. </td></tr>
-    <tr><td class="paramname">tcxoVoltage</td><td>TCXO reference voltage to be set on DIO3. Defaults to 1.6 V, set to 0 to skip. </td></tr>
+    <tr><td class="paramname">tcxoVoltage</td><td>TCXO reference voltage to be set on DIO3. Defaults to 0 V (XTAL). If you are seeing -706/-707 error codes, it likely means you are using a module with TCXO. To use TCXO, either set this value to its reference voltage, or set <a class="el" href="class_s_x126x.html#ada0fe6c3d31885952b439135cf0c18f1" title="Whether the module has an XTAL (true) or TCXO (false). Defaults to false.">SX126x::XTAL</a> to false. </td></tr>
     <tr><td class="paramname">useRegulatorLDO</td><td>Whether to use only LDO regulator (true) or DC-DC regulator (false). Defaults to false. </td></tr>
   </table>
   </dd>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pagerclient_446',['PagerClient',['../class_pager_client.html',1,'']]],
-  ['physicallayer_447',['PhysicalLayer',['../class_physical_layer.html',1,'']]]
+  ['nrf24_486',['nRF24',['../classn_r_f24.html',1,'']]]
 ];
