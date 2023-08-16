@@ -20,7 +20,8 @@ var searchData=
   ['disablecontinuousmodebitsync_54',['disableContinuousModeBitSync',['../class_r_f69.html#a97d3570f4f898dde47e3daf8043e7bad',1,'RF69']]],
   ['disablepipe_55',['disablePipe',['../classn_r_f24.html#a4dd39e5c0efee1f0c2a14f729eb4426a',1,'nRF24']]],
   ['disablesyncwordfiltering_56',['disableSyncWordFiltering',['../class_c_c1101.html#a4f2dc4176b62a0636636088e31b8e85b',1,'CC1101::disableSyncWordFiltering()'],['../class_r_f69.html#a400bb57d2353b57c29cf41a6d9497c80',1,'RF69::disableSyncWordFiltering()']]],
-  ['downlinkdataratebase_57',['downlinkDataRateBase',['../struct_lo_ra_w_a_n_band__t.html#a43a53c935e0ac482027a22e9c58ed8ed',1,'LoRaWANBand_t']]],
-  ['downlinkdataratemin_58',['downlinkDataRateMin',['../struct_lo_ra_w_a_n_band__t.html#ac885c9beda28b2fcacac002ebfeaf358',1,'LoRaWANBand_t']]],
-  ['dropsync_59',['dropSync',['../class_physical_layer.html#a429796eb2e7ea86781a2e8ca42af43f3',1,'PhysicalLayer']]]
+  ['downlink_57',['downlink',['../class_lo_ra_w_a_n_node.html#a55156cbc6b09da6d4ba7337d1a4136fe',1,'LoRaWANNode']]],
+  ['downlinkdataratebase_58',['downlinkDataRateBase',['../struct_lo_ra_w_a_n_band__t.html#a43a53c935e0ac482027a22e9c58ed8ed',1,'LoRaWANBand_t']]],
+  ['downlinkdataratemin_59',['downlinkDataRateMin',['../struct_lo_ra_w_a_n_band__t.html#ac885c9beda28b2fcacac002ebfeaf358',1,'LoRaWANBand_t']]],
+  ['dropsync_60',['dropSync',['../class_physical_layer.html#a429796eb2e7ea86781a2e8ca42af43f3',1,'PhysicalLayer']]]
 ];
